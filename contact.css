@@ -154,16 +154,14 @@
     border-left: none;
   }
 
-  /* 🔑 FIX STARTS HERE */
   .contact-social {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
-
-    margin-top: 24px;     /* pulls icons closer to the text */
-    margin-bottom: 8px;   /* prevents them drifting downward */
-    flex-wrap: nowrap;    /* force single row */
+    margin-top: 24px;
+    margin-bottom: 8px;
+    flex-wrap: nowrap;
   }
 }
